@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project/Pages/first.dart';
-import 'package:flutter_project/Pages/second.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +15,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'settings'),
+      home: const MyHomePage(title: 'My flutter Home page'),
     );
   }
 }
@@ -31,6 +29,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,25 +39,8 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         body: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              TextButton(
-                  onPressed: () {
-                    // the context passed in the of function is coming from the widget tree in the MaterialApp having a Navigator state
-                    Navigator.of(context).push(MaterialPageRoute(
-                        builder: (context) => const FirstPage())
-                    );
-                  },
-                  child: const Text("Click to First Page")
-                ),
-              TextButton(
-                  onPressed: () {
-                    Navigator.push(context,MaterialPageRoute(
-                        builder: (context) => const SecondPage()),
-                    );
-                  },
-                  child: const Text("Click to Second Page")
-                )
+            children: [
+              
             ],
           ),
         ));
