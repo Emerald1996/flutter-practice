@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "594341210232",
+    "project_id": "emerald-twitter",
+    "storage_bucket": "emerald-twitter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594341210232:android:33ddb8971abbc6d792e58d",
+        "android_client_info": {
+          "package_name": "com.example.flutter_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_6pzvVU0ciSDlM6BMhW1QKn55eeGSuvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
